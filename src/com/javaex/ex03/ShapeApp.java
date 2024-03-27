@@ -8,9 +8,11 @@ public class ShapeApp {
 			t1.setFillColor("빨강");
 			t1.setLineColor("파랑");
 			t1.showInfo();
-			
-	}
 
+
+
+	
+	}
 }
 
 
