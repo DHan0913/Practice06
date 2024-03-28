@@ -9,16 +9,16 @@ public class Customer extends User {
 	}
 	
 	public int getPoint() {
-
 		return point;
 	}
-	public void setPoint(int poin) {
+	
+	public void setPoint(int point) {
 		this.point = point;
 	}
 
 	@Override
 	public void showInfo() {
-		System.out.println("#아이디:" + super.getId() + ", #패스워드:" + super.getPassword() +", #이름:" + super.getName() + ", #포인트:" + point);
+		System.out.println("#아이디:" + id + ", #패스워드:" + password +", #이름:" + name + ", #포인트:" + point);
 	}
 
 }
