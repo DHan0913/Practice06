@@ -1,9 +1,9 @@
 package com.javaex.ex04;
 
 public class User {
-	protected String id;
-	protected String password;
-	protected String name;
+	private String id;
+	private String password;
+	private String name;
 	
 	public User(String id, String password, String name) {
 		super();

@@ -1,7 +1,7 @@
 package com.javaex.ex04;
 
 public class Customer extends User {
-	protected int point;
+	private int point;
 	
 	public Customer(String id, String password, String name, int point) {
 		super(id, password, name);
@@ -18,7 +18,7 @@ public class Customer extends User {
 
 	@Override
 	public void showInfo() {
-		System.out.println("#아이디:" + id + ", #패스워드:" + password +", #이름:" + name + ", #포인트:" + point);
+		System.out.println("#아이디:" + super.getId() + ", #패스워드:" + super.getPassword() +", #이름:" + super.getName() + ", #포인트:" + point);
 	}
 
 }

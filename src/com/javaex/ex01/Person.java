@@ -4,6 +4,8 @@ public class Person {
 	protected String name;
 	protected String hp;
 	
+	
+	//생성자
 	public Person() {
 		
 	}
