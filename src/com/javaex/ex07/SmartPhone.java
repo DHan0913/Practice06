@@ -6,7 +6,7 @@ public class SmartPhone extends MusicPhone {
     public void execute(String str){
             
        if("앱".equals(str)){
-            playApp();
+            runApp();
        }else if ("음악".equals(str)){
     	   playMusic();
        } else {   
@@ -17,14 +17,14 @@ public class SmartPhone extends MusicPhone {
   }
         
     //메소드작성
-	protected void playApp(){
+	public void runApp(){
     System.out.println("앱실행");
 	}
 
 
     //메소드작성
 	@Override
-	protected void playMusic(){
+	public void playMusic(){
     System.out.println("다운로드해서 음악재생");
 	}
     
